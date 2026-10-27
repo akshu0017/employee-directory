@@ -1,4 +1,4 @@
-// Step 1: Define Types & Interfaces[cite: 1]
+
 type Department = "Engineering" | "Design" | "Data Science" | "Marketing";
 
 interface Employee {
@@ -10,7 +10,7 @@ interface Employee {
   email: string;
 }
 
-// Step 2: Employee List (includes your details)[cite: 1]
+
 const employees: Employee[] = [
   {
     id: 1,
@@ -22,23 +22,23 @@ const employees: Employee[] = [
   },
   {
     id: 2,
-    uid: "dev_alex",
-    name: "Alex Rivera",
+    uid: "Albyy",
+    name: "Alby Shaji",
     role: "Frontend Engineer",
     department: "Engineering",
-    email: "alex.rivera@example.com"
+    email: "alebyy.shajiii@example.com"
   },
   {
     id: 3,
-    uid: "des_sarah",
-    name: "Sarah Chen",
+    uid: "s_sarah",
+    name: "Sarah Matthew",
     role: "UI/UX Designer",
     department: "Design",
-    email: "sarah.chen@example.com"
+    email: "sarah.matthew@example.com"
   },
   {
     id: 4,
-    uid: "mkt_priya",
+    uid: "m_priya",
     name: "Priya Sharma",
     role: "Marketing Manager",
     department: "Marketing",
@@ -74,7 +74,7 @@ function renderEmployees(list: Employee[]): void {
   });
 }
 
-// Step 3: Search Functionality[cite: 1]
+
 function handleSearch(): void {
   const query = searchInput.value.toLowerCase().trim();
   
